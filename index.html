@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+ 
+    
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <form action="" name="Question">
+          <input type="text" name="Answer" id="" class="form-control mt-4">
+          <table class="table">
+          <tr>
+            <td><input type="button" value="7" class="btn btn-info w-100" onclick="Question.Answer.value += '7'"></td>
+            <td><input type="button" value="8" class="btn btn-info w-100" onclick="Question.Answer.value += '8'"></td>
+            <td><input type="button" value="9" class="btn btn-info w-100" onclick="Question.Answer.value += '9'"></td>
+            <td><input type="button" value="X" class="btn btn-info w-100" onclick="Question.Answer.value += '*'"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" class="btn btn-info w-100" onclick="Question.Answer.value += '4'"></td>
+            <td><input type="button" value="5" class="btn btn-info w-100" onclick="Question.Answer.value += '5'"></td>
+            <td><input type="button" value="6" class="btn btn-info w-100" onclick="Question.Answer.value += '6'"></td>
+            <td><input type="button" value="-" class="btn btn-info w-100" onclick="Question.Answer.value += '-'"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" class="btn btn-info w-100" onclick="Question.Answer.value += '1'"></td>
+            <td><input type="button" value="2" class="btn btn-info w-100" onclick="Question.Answer.value += '2'"></td>
+            <td><input type="button" value="3" class="btn btn-info w-100" onclick="Question.Answer.value += '3'"></td>
+            <td><input type="button" value="+" class="btn btn-info w-100" onclick="Question.Answer.value += '+'"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="0" class="btn btn-info w-100" onclick="Question.Answer.value += '0'"></td>
+            <td><input type="button" value="=" class="btn btn-info w-100" onclick="Question.Answer.value = eval(Question.Answer.value)"></td>
+            <td><input type="button" value="." class="btn btn-info w-100" onclick="Question.Answer.value += '.'"></td>
+            <td><input type="button" value="/" class="btn btn-info w-100" onclick="Question.Answer.value += '/'"></td>
+          </tr>
+          <tr>
+            <td><input type="reset" value="C" class="btn btn-danger w-100" onclick="Question.Answer.value"></td>
+          </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+</html>
